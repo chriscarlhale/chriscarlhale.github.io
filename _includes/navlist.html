@@ -1,0 +1,7 @@
+{%- for path in site.pages -%}
+  {%- if path.title -%}
+  <li class="nav-item">
+    <a class="nav-link" href="{{ path.url | relative_url }}">{{ path.title }}</a>
+  </li>
+  {%- endif -%}
+{%- endfor -%}

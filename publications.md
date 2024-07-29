@@ -5,3 +5,6 @@ permalink: /publications
 ---
 
 Publications
+* one
+* two
+* three

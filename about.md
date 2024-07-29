@@ -2,8 +2,9 @@
 layout: page
 title: About
 permalink: /about
+profile-image: /assets/images/Chris-Profile.png
 ---
 
-# About
+{% include profile-image.html %}
 
-THis is stuff about chris
+This is stuff ABOUT Chris Carl Hale
