@@ -3,45 +3,57 @@
     <div class="container wrapper">
       <div class="row">
         <div class="col">
-          Navigation
-          <ul class="">
-            {%- include navlist.html -%}
-          </ul>
-          Socials 
-          <ul class="">
-            {%- include social.html -%}
-          </ul>
-        </div>
-        <div class="col">
-          {%- if site.author %}
-            Contact
-            <ul class="contact-list">
-              {% if site.author.name -%}
-                <li class="p-name">{{ site.author.name | escape }}:       
-                {% if site.author.email -%}
-                  <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-                {%- endif %}
-                </li>
-              {%- endif %}
+          <div class="links">
+            Navigation
+            <ul class="">
+              {%- include navlist.html -%}
+            </ul>
+            Socials 
+            <ul class="">
+              {%- include social.html -%}
             </ul>
             Subscribe
-            <ul>
-              <li>
-                <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-                  <svg class="svg-icon">
-                    <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-            Music
-            <ul>
-              <li><a href="{{ site.dj-site | absolute_url }}" target="_blank">{{ site.dj-name }}</a></li>
-            </ul>
-          {%- endif %}
+              <ul>
+                <li>
+                  <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+                    <svg class="svg-icon">
+                      <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+          </div>
         </div>
         <div class="col">
-          <p>{{ site.description | escape }}</p>
-        </div>      
+          <div class="contact">
+            {%- if site.author %}
+              Contact
+              <ul class="contact-list">
+                {% if site.author.name -%}
+                  <li class="p-name">{{ site.author.name | escape }}:       
+                  {% if site.author.email -%}
+                    <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+                  {%- endif %}
+                  </li>
+                {%- endif %}
+              </ul>
+              Links
+              <ul class="links">
+                <li><a href="https://dbsg.aiu.ac.jp/html/100000204_en.html" target="_blank">Akita International University</a></li>
+                <li><a href="https://scholar.google.co.jp/citations?user=K6abgFkAAAAJ" target="_blank">Google Scholar</a></li>
+                <li><a href="https://www.accentsasia.org/" target="_blank">Accent Asia</a></li>
+              </ul>            
+              Music
+              <ul>
+                <li><a href="{{ site.dj-site | absolute_url }}" target="_blank">{{ site.dj-name }}</a></li>
+              </ul>
+            {%- endif %}
+          </div>  
+        </div>
+        <div class="col">
+          <div class="description">
+            <p class="desc">{{ site.description | escape }}</p>
+          </div>      
+        </div>
     </div>
   </footer>

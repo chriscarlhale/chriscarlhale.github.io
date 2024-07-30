@@ -10,3 +10,7 @@
     height: 250px;
     width: 250px;
 }
+
+.pub-image {
+    max-height: 250px;
+}
