@@ -3,16 +3,19 @@
     <div class="container wrapper">
       <div class="row">
         <div class="col">
-          <ul class="">Navigation
+          Navigation
+          <ul class="">
             {%- include navlist.html -%}
           </ul>
-          <ul class="">Socials
+          Socials 
+          <ul class="">
             {%- include social.html -%}
           </ul>
         </div>
         <div class="col">
           {%- if site.author %}
-            <ul class="contact-list">Contact
+            Contact
+            <ul class="contact-list">
               {% if site.author.name -%}
                 <li class="p-name">{{ site.author.name | escape }}:       
                 {% if site.author.email -%}
@@ -21,7 +24,8 @@
                 </li>
               {%- endif %}
             </ul>
-            <ul>Subscribe
+            Subscribe
+            <ul>
               <li>
                 <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
                   <svg class="svg-icon">
@@ -30,7 +34,8 @@
                 </a>
               </li>
             </ul>
-            <ul>Music
+            Music
+            <ul>
               <li><a href="{{ site.dj-site | absolute_url }}" target="_blank">{{ site.dj-name }}</a></li>
             </ul>
           {%- endif %}
