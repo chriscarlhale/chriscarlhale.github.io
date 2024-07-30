@@ -7,20 +7,31 @@
             {%- include navlist.html -%}
           </ul>
           <ul class="">Socials
-            {%- include social.html -%}                         
-            <li><a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}"><svg class="svg-icon"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg></a></li>
-            
+            {%- include social.html -%}
           </ul>
         </div>
         <div class="col">
           {%- if site.author %}
-            <ul class="contact-list">
+            <ul class="contact-list">Contact
               {% if site.author.name -%}
-                <li class="p-name">{{ site.author.name | escape }}</li>
-              {% endif -%}
-              {% if site.author.email -%}
-                <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+                <li class="p-name">{{ site.author.name | escape }}:       
+                {% if site.author.email -%}
+                  <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+                {%- endif %}
+                </li>
               {%- endif %}
+            </ul>
+            <ul>Subscribe
+              <li>
+                <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+                  <svg class="svg-icon">
+                    <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <ul>Music
+              <li><a href="{{ site.dj-site | absolute_url }}" target="_blank">{{ site.dj-name }}</a></li>
             </ul>
           {%- endif %}
         </div>
