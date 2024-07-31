@@ -88,7 +88,8 @@ pubs:
     urls:
       - site: Amazon       
         href: https://www.amazon.co.jp/dp/1138550396/?coliid=IGO4902J906QC&colid=TLGWXFAEBJFH&psc=0&ref_=lv_ov_lig_dp_it
-      - site:
+      - site: Routledge
+        href: https://www.routledge.com/Teaching-English-at-Japanese-Universities-A-New-Handbook/Wadden-Hale/p/book/9781138550391
 
   - name: "Negotiating the effects of transnational education: The experience of graduate students in an American teacher-education program"
     publisher: Japan ProQuest LLC
@@ -98,6 +99,9 @@ pubs:
       - name: Chris Carl Hale
     desc: Scholarly Book, Single Author, Foreign language education, Education, English
     image: /assets/images/negotiating_the_effects_of_transnational_education.png
+    urls:
+      - site: Library Northeastern University
+        href: https://repository.library.northeastern.edu/files/neu:rx914r62x
 
   - name: "Charting new courses: Second language action research in Japanese junior and senior high schools"
     publisher: Accents Asia Press
@@ -109,6 +113,9 @@ pubs:
       - name: Kristen Carlson
     desc: Scholarly Book, Multiple Authorship , Education on school subjects and activities, Foreign language education, English
     image: /assets/images/charting_new_courses_second_language_action_research_in_japanese_junior_and_senior_high_schools_accents_asia_the_journal_for_second_language_education_in_east_asia.jpg
+    urls:
+      - site: Amazon       
+        href: https://www.amazon.com/Charting-New-Courses-Language-Education/dp/1440411816/ref=sr_1_1?ie=UTF8&qid=1477899549&sr=8-1&keywords=Charting+new+courses%3A+Second+language+action+research+in+Japanese+junior+and+senior+high+schools 
 
 ---
 {% for pub in page.pubs %}
@@ -126,7 +133,7 @@ pubs:
             {% endfor %}    
           </p>
           {% for url in pub.urls %}
-            <a href="{{ url.site.href }}" target="_blank" class="btn btn-primary">{{ url.site }}</a>
+            <a href="{{ url.href }}" target="_blank" class="btn btn-primary">{{ url.site }}</a>
           {% endfor %}    
         </div>
       </div>      
