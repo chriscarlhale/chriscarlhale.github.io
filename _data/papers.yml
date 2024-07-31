@@ -8,7 +8,7 @@
   desc: Research paper (scientific journal), Single Author, Foreign language education, Linguistics, English
   urls:
     - site: doi
-      href: "https://dx.doi.org/https://doi.%20org/10.1075/lllt.52"
+      href: https://doi.org/10.1075/lllt.52
     - site: jalt
       href: https://jalt.org/system/files/JJ43.1_0.pdf
 
@@ -103,7 +103,7 @@
   subtitle: Facilitating student initiated talk,
   jpurnal: JALT 2010 Conference Proceedings, vol.1 (1) (p.38 - 46)
   date: 2011/07
-  author: Chris Halehttp://ci.nii.ac.jp/naid/120005527494
+  author: Chris Hale
   desc: Research paper (international conference proceedings), Single Author, Education on school subjects and activities, Linguistics, English
   urls: 
     - site: Jalt
