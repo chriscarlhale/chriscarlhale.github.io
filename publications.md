@@ -4,8 +4,9 @@ title: Publications
 permalink: /publications
 pubs: 
   - name: Academic Culture as Content
+    publisher: Springer
     date: 2020/12
-    title: Self-Assessment in the CLIL Classroom in the International Liberal Arts University, Springer
+    title: Self-Assessment in the CLIL Classroom in the International Liberal Arts University
     author:
       - name: Chris Carl Hale
       - name: Alexander Nanni    
@@ -17,8 +18,10 @@ pubs:
       - site: Springer
         href: https://link.springer.com/book/10.1007%2F978-3-030-54128-6#about
 
-  - name: An in-service TESOL practicum in Japan, Springer
+  - name: An in-service TESOL practicum in Japan
+    publisher: Springer    
     date: 2020/11
+    title: 
     author:
       - name: Bill Snyder
       - name: Chris Carl Hale
@@ -32,8 +35,9 @@ pubs:
         href: https://link.springer.com/book/10.1007%2F978-3-030-28756-6
 
   - name: Teaching English at Japanese Universities
-    title: A new Handbook, Routledge
-    date: 2018/11
+    publisher: Routledge
+    date: 2018/11    
+    title: A new Handbook
     author:
       - name: Paul Wadden
       - name: Chris Carl Hale
@@ -47,72 +51,72 @@ pubs:
       - site: ASIN
         href: http://amazon.co.jp/o/ASIN/1138550396
 
-  - name: Real world listening in the Japanese university classroom (Chapter in edited volume), Routledge
+  - name: Real world listening in the Japanese university classroom (Chapter in edited volume)
+    publisher: Routledge
     date: 2018/11
+    title: 
     author: 
       - name: Chris Carl Hale
     desc: Single Author, Foreign language education, Education, Sociology of education, English
+    image: /assets/images/teaching_english_at_japanese_universities_a_new_handbook.jpg
     urls:
       - site: Amazon       
         href: https://www.amazon.co.jp/dp/1138550396/?coliid=IGO4902J906QC&colid=TLGWXFAEBJFH&psc=0&ref_=lv_ov_lig_dp_it
       
-  - name: "The landscape of Japanese higher education: An introduction (Chapter in edited volume), Routledge"
+  - name: "The landscape of Japanese higher education: An introduction (Chapter in edited volume)"
+    publisher: Routledge
     date: 2018/11
+    title: 
     author: 
       - name: Chris Carl Hale
       - name: Paul Wadden
-    desc: Other, Joint Editing and Writing, Foreign language education, Education, Sociology of education, English 
+    desc: Joint Editing and Writing, Foreign language education, Education, Sociology of education, English
+    image: /assets/images/teaching_english_at_japanese_universities_a_new_handbook.jpg 
     urls:
       - site: Amazon       
         href: https://www.amazon.co.jp/dp/1138550396/?coliid=IGO4902J906QC&colid=TLGWXFAEBJFH&psc=0&ref_=lv_ov_lig_dp_it
 
-  - name: Types of universities in Japan (Chapter in edited volume), Routledge
+  - name: Types of universities in Japan (Chapter in edited volume)
+    publisher: Routledge
     date: 2018/11
+    title: 
     author:
       - name: Chris Carl Hale
       - name: Paul Wadden
-    desc: Other, Joint Editing and Writing, Foreign language education, Education, Sociology of education, English
+    desc: Joint Editing and Writing, Foreign language education, Education, Sociology of education, English
+    image: /assets/images/teaching_english_at_japanese_universities_a_new_handbook.jpg
+    urls:
+      - site: Amazon       
+        href: https://www.amazon.co.jp/dp/1138550396/?coliid=IGO4902J906QC&colid=TLGWXFAEBJFH&psc=0&ref_=lv_ov_lig_dp_it
+      - site:
 
-  - name: "Policy, Negotiating the effects of transnational education: The experience of graduate students in an American teacher-education program in Japan ProQuest LLC"
+  - name: "Negotiating the effects of transnational education: The experience of graduate students in an American teacher-education program"
+    publisher: Japan ProQuest LLC
     date: 2015/03
+    title:
     author: 
       - name: Chris Carl Hale
     desc: Scholarly Book, Single Author, Foreign language education, Education, English
+    image: /assets/images/negotiating_the_effects_of_transnational_education.png
 
-  - name: "Charting new courses: Second language action research in Japanese junior and senior high schools, Accents Asia Press"
+  - name: "Charting new courses: Second language action research in Japanese junior and senior high schools"
+    publisher: Accents Asia Press
     date: 2008/04
-    author: 
-      - name: Chris Hale
-      - name: Janell Pekkain
-      - name: Kristen Carlson
-
-  - name: "Scholarly Book, Multiple Authorship , Education on school subjects and activities, Foreign language education, Englishedagogy and transformation: A professional development program for Japanese teachers of English (Chapter in edited volume), Routledge"
-    date: 2018/06
-    author:
-      - name: Glasgow, G.
-      - name: Hale, C. C.
-    desc: Other, Multiple Authorship , Education, Foreign language education, Linguistics, English
-
-  - name: "Negotiating the effects of transnational education: The experience of graduate students in an American teacher-education program in Japan, ProQuest LLC"
-    date: 2015/03
+    title: 
     author: 
       - name: Chris Carl Hale
-    desc: Scholarly Book, Single Author, Foreign language education, Education, English
-
-  - name: "Charting new courses: Second language action research in Japanese junior and senior high schools, Accents Asia Press"
-    date: 2008/04
-    author: 
-      - name: Chris Hale
       - name: Janell Pekkain
       - name: Kristen Carlson
     desc: Scholarly Book, Multiple Authorship , Education on school subjects and activities, Foreign language education, English
+    image: /assets/images/charting_new_courses_second_language_action_research_in_japanese_junior_and_senior_high_schools_accents_asia_the_journal_for_second_language_education_in_east_asia.jpg
+
 ---
 {% for pub in page.pubs %}
   <div class="card m-2 p-2" style="">    
     <div class="row">        
       <div class="col">        
         <div class="card-body">
-          <div class="card-text"><small class="text-muted">{{ pub.date }}</small></div>
+          <div class="card-text"><small class="text-muted">{{ pub.publisher }} {{ pub.date }}</small></div>
           <h4 class="card-title">{{ pub.name.title }}</h4>
           <h5 class="card-title">{{ pub.name }}</h5>
           <p class="card-text">{{ pub.desc }}</p>
