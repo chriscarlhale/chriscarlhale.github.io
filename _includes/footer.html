@@ -5,15 +5,15 @@
         <div class="col">
           <div class="links">
             Navigation
-            <ul class="">
+            <ul class="navlist">
               {%- include navlist.html -%}
             </ul>
             Socials 
-            <ul class="">
+            <ul class="socials">
               {%- include social.html -%}
             </ul>
             Subscribe
-              <ul>
+              <ul class="rss">
                 <li>
                   <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
                     <svg class="svg-icon">
@@ -40,11 +40,12 @@
               Links
               <ul class="links">
                 <li><a href="https://dbsg.aiu.ac.jp/html/100000204_en.html" target="_blank">Akita International University</a></li>
+                <li><a href="https://researchmap.jp/read0153687?lang=en" target="_blank">Reasearch Map Japan</a></li>
                 <li><a href="https://scholar.google.co.jp/citations?user=K6abgFkAAAAJ" target="_blank">Google Scholar</a></li>
                 <li><a href="https://www.accentsasia.org/" target="_blank">Accent Asia</a></li>
               </ul>            
               Music
-              <ul>
+              <ul class="music">
                 <li><a href="{{ site.dj-site | absolute_url }}" target="_blank">{{ site.dj-name }}</a></li>
               </ul>
             {%- endif %}
@@ -55,5 +56,11 @@
             <p class="desc">{{ site.description | escape }}</p>
           </div>      
         </div>
+      </div>
+      <div class="row">
+        <div class="col ">
+          <p class="copyright text-muted text-center fs-6">Copyright © <a href="https://hepaestus.com" target="_blank" class="">hepaestus.com 2024</a></p>
+        </div>
+      </div>
     </div>
   </footer>
