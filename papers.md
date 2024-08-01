@@ -9,7 +9,7 @@ permalink: /papers
       <div class="col">        
         <div class="card-body">
           <!-- Uncomment For Debugging Data <div class="card-text">{{paper.id}}</div> -->
-          <div class="card-text">{{ paper.journal }}<div class="date float-end">{{ paper.date }}</div></div>
+          <div class="card-text py-2">{{ paper.journal }}<div class="date float-end">{{ paper.date }}</div></div>
           <h4 class="card-title">{{ paper.title }}</h4>
           <h5 class="card-title">{{ paper.subtitle }}</h5>
           <p class="card-text">{{ paper.desc }}</p>

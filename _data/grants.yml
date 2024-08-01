@@ -1,41 +1,60 @@
-foo: "
-US Consulate General Sapporo
-2021/10 - 2022/10
-Business Communication in English Program in Northern Japan
-With the aim of providing more quality English-language and business-skill professional-development opportunities to Northern Japan, Akita International University (AIU) will provide and oversee a 1-year (48 weeks) program targeting business professionals based in Tohoku and Hokkaido. Capitalizing on its position as a leading university in Northern Japan and one built upon the principles of American Liberal Arts, AIU is well suited to providing this program. In addition to its world-class faculty and online learning resources, AIU has a Global Business Program from which to draw on when developing programming focused on business professional development. AIU has been providing such programs to business professionals all over Japan for many years. This will be the first program targeted specifically to individuals in Northern Japan.
-US Consulate General Sapporo
+- id: 1
+  granting_entity: US Consulate General Sapporo
+  date: 2021/10 - 2022/10
+  title: Business Communication in English Program in Northern Japan
+  desc: With the aim of providing more quality English-language and business-skill professional-development opportunities to Northern Japan, Akita International University (AIU) will provide and oversee a 1-year (48 weeks) program targeting business professionals based in Tohoku and Hokkaido. Capitalizing on its position as a leading university in Northern Japan and one built upon the principles of American Liberal Arts, AIU is well suited to providing this program. In addition to its world-class faculty and online learning resources, AIU has a Global Business Program from which to draw on when developing programming focused on business professional development. AIU has been providing such programs to business professionals all over Japan for many years. This will be the first program targeted specifically to individuals in Northern Japan.
 
-Federal Assistance Award, US State Department
-2021/02 - 2022/09
-English Teacher Training
-Program description and purpose: Akita International University (AIU) will organize, develop, deliver and oversee professional-training and development programs to practicing in-service primary and secondary-school English teachers in Japan. The two-year programming will be designed to provide these teachers with the skills needed to successfully implement the communicative approach to language teaching (CLT) set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology.
-US Department of State
+- id: 3
+  granting_entity: Federal Assistance Award, US State Department
+  date: 2019/10 - 2020/09
+  title: English Teacher Training
+  desc: Akita International University (AIU) will organize, develop, deliver and oversee professional-training and development programs to practicing in-service primary and secondary-school English teachers in Japan. The two-year programming will be designed to provide these teachers with the skills needed to successfully implement the communicative approach to language teaching (CLT) set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology.
 
-Federal Assistance Award, US State Department
-2019/10 - 2020/09
-English Teacher Training
-Program description and purpose: Akita International University (AIU) will organize, develop, deliver and oversee professional-training and development programs to practicing in-service primary and secondary-school English teachers in Japan. The two-year programming will be designed to provide these teachers with the skills needed to successfully implement the communicative approach to language teaching (CLT) set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology.
-US Department of State
+- id: 4
+  granting_entity: Federal Assistance Award, US State Department
+  date: 2017/10 - 2019/10
+  title: English Teacher Training
+  desc: Akita International University (AIU) will organize, develop, deliver and oversee professional-training and development programs to practicing in-service primary and secondary-school English teachers in Japan. The two-year programming will be designed to provide these teachers with the skills needed to successfully implement the communicative approach to language teaching (CLT) set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology.
 
-Federal Assistance Award, US State Department
-2017/10 - 2019/10
-English Teacher Training
-Program description and purpose: Akita International University (AIU) will organize, develop, deliver and oversee professional-training and development programs to practicing in-service primary and secondary-school English teachers in Japan. The two-year programming will be designed to provide these teachers with the skills needed to successfully implement the communicative approach to language teaching (CLT) set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology.
-US Department of State
+- id: 5
+  granting_entity: US Consulate General Sapporo
+  date: 2017/08
+  title: Teacher Training, Curriculum Design
+  desc: Akita International University will offer an intensive TESOL training program to practicing in-service English teachers in the Tohoku region in order to provide them with the skills needed to successfully implement the communicative approach to language teaching set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology. The ultimate aim of the program is to provide quality professional development in the under-served areas of Tohoku, with the belief that better trained teachers will result in better language proficiency skills of students, and increase the likelihood of their studying in the U.S.
 
-US Consulate General Sapporo
-2017/08
-Teacher Training, Curriculum Design
-Akita International University will offer an intensive TESOL training program to practicing in-service English teachers in the Tohoku region in order to provide them with the skills needed to successfully implement the communicative approach to language teaching set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology. The ultimate aim of the program is to provide quality professional development in the under-served areas of Tohoku, with the belief that better trained teachers will result in better language proficiency skills of students, and increase the likelihood of their studying in the U.S.
-US Consulate General Sapporo
+- id: 6
+  granting_entity: Federal Assistance Award, US State Department
+  date: 2015/08 - 2016/08
+  title: English Teacher Training
+  desc: Akita International University (AIU) will organize, develop, deliver and oversee professional-training and development programs to practicing in-service primary and secondary-school English teachers in Japan. The two-year programming will be designed to provide these teachers with the skills needed to successfully implement the communicative approach to language teaching (CLT) set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology.
 
-Federal Assistance Award, US State Department
-2015/08 - 2016/08
-Language Teacher Education
-US State Department
 
-Fulbright and US State Department
-2014/07 - 2015/07
-Language Teacher Education
-Foreign Countries
-"
+- id: 7
+  granting_entity: Federal Assistance Award, US State Department
+  date: 2019/10 - 2020/09
+  title: English Teacher Training
+  desc: Akita International University (AIU) will organize, develop, deliver and oversee professional-training and development programs to practicing in-service primary and secondary-school English teachers in Japan. The two-year programming will be designed to provide these teachers with the skills needed to successfully implement the communicative approach to language teaching (CLT) set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology.
+
+- id: 8
+  granting_entity: Federal Assistance Award, US State Department
+  date: 2017/10 - 2019/10
+  title: English Teacher Training
+  desc: Akita International University (AIU) will organize, develop, deliver and oversee professional-training and development programs to practicing in-service primary and secondary-school English teachers in Japan. The two-year programming will be designed to provide these teachers with the skills needed to successfully implement the communicative approach to language teaching (CLT) set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology.
+
+- id: 9
+  granting_entity: US Consulate General Sapporo
+  date: 2017/08
+  title: Teacher Training, Curriculum Design
+  desc: Akita International University will offer an intensive TESOL training program to practicing in-service English teachers in the Tohoku region in order to provide them with the skills needed to successfully implement the communicative approach to language teaching set out by the Ministry of Education, with its growing emphasis on English as the Medium of Instruction (EMI) methodology. The ultimate aim of the program is to provide quality professional development in the under-served areas of Tohoku, with the belief that better trained teachers will result in better language proficiency skills of students, and increase the likelihood of their studying in the U.S.
+
+- id: 10
+  granting_entity: Federal Assistance Award, US State Department
+  date: 2015/08 - 2016/08
+  title: Language Teacher Education
+  desc: US State Department
+
+- id: 11
+  granting_entity: Fulbright and US State Department
+  date: 2014/07 - 2015/07
+  title: Language Teacher Education
+  desc: Foreign Countries
