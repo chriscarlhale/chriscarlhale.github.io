@@ -1,26 +1,5 @@
 <footer class="site-footer h-card bg-dark text-light pt-4 pb-2">
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
-<<<<<<< HEAD
-  
-    <div class="container-md">
-  
-      <div class="footer-col-wrapper">
-        <div class="footer-col">
-          <p class="feed-subscribe">
-            <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-              <svg class="svg-icon orange">
-                <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-              </svg><span>Subscribe</span>
-            </a>
-          </p>
-        {%- if site.author %}
-          <ul class="contact-list">
-            {% if site.author.name -%}
-              <li class="p-name">{{ site.author.name | escape }}</li>
-            {% endif -%}
-            {% if site.author.email -%}
-              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-=======
     <div class="container wrapper">
       <div class="row">
         <div class="col">
@@ -69,7 +48,6 @@
               <ul class="music">
                 <li><a href="{{ site.dj-site | absolute_url }}" target="_blank">{{ site.dj-name }}</a></li>
               </ul>
->>>>>>> 939724f85cf5ab24875f9fff0573f90ad12fe981
             {%- endif %}
           </div>  
         </div>
@@ -81,7 +59,11 @@
       </div>
       <div class="row">
         <div class="col ">
-          <p class="copyright text-muted text-center fs-6">Copyright © <a href="https://hepaestus.com" target="_blank" class="">hepaestus.com 2024</a></p>
+          <p class="copyright text-muted text-center fs-6">Copyright © 2024 Chris Carl Hale</p>
+          <div class="text-dark text-center">
+            <a href="https://hepaestus.com" target="_blank" class="">hepaestus.com</a>
+            {% include git_build_data.html %}
+          </div>
         </div>
       </div>
     </div>
