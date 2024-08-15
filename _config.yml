@@ -1,4 +1,3 @@
-
 title: Chris Carl Hale Ed.D
 url: chriscarlhale.com
 author:
@@ -20,6 +19,11 @@ description: >
 #  related to language acquisition and teacher training in the United States and in 
 #  Japan for over 25 years. He is also an avid DJ and techno music producer.
 
+
+dj-name: DJ Chris Hale
+dj-site: http://xp8r.com/
+dj-site-name: XP8R
+
 # Build settings
 formspree: xpwapnnd
 
@@ -35,7 +39,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Theme-specific settings
+# Theme-specific settingsontainer
 
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.

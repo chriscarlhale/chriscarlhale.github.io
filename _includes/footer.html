@@ -1,5 +1,6 @@
-<footer class="site-footer h-card">
+<footer class="site-footer h-card bg-dark text-light pt-4 pb-2">
     <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<<<<<<< HEAD
   
     <div class="container-md">
   
@@ -19,19 +20,69 @@
             {% endif -%}
             {% if site.author.email -%}
               <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+=======
+    <div class="container wrapper">
+      <div class="row">
+        <div class="col">
+          <div class="links">
+            Navigation
+            <ul class="navlist">
+              {%- include navlist.html -%}
+            </ul>
+            Socials 
+            <ul class="socials">
+              {%- include social.html -%}
+            </ul>
+            Subscribe
+              <ul class="rss">
+                <li>
+                  <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+                    <svg class="svg-icon">
+                      <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="contact">
+            {%- if site.author %}
+              Contact
+              <ul class="contact-list">
+                {% if site.author.name -%}
+                  <li class="p-name">{{ site.author.name | escape }}:       
+                  {% if site.author.email -%}
+                    <a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+                  {%- endif %}
+                  </li>
+                {%- endif %}
+              </ul>
+              Links
+              <ul class="links">
+                <li><a href="https://dbsg.aiu.ac.jp/html/100000204_en.html" target="_blank">Akita International University</a></li>
+                <li><a href="https://researchmap.jp/read0153687?lang=en" target="_blank">Reasearch Map Japan</a></li>
+                <li><a href="https://scholar.google.co.jp/citations?user=K6abgFkAAAAJ" target="_blank">Google Scholar</a></li>
+                <li><a href="https://www.accentsasia.org/" target="_blank">Accent Asia</a></li>
+              </ul>            
+              Music
+              <ul class="music">
+                <li><a href="{{ site.dj-site | absolute_url }}" target="_blank">{{ site.dj-name }}</a></li>
+              </ul>
+>>>>>>> 939724f85cf5ab24875f9fff0573f90ad12fe981
             {%- endif %}
-          </ul>
-        {%- endif %}
+          </div>  
         </div>
-        <div class="footer-col">
-          <p>{{ site.description | escape }}</p>
+        <div class="col">
+          <div class="description">
+            <p class="desc">{{ site.description | escape }}</p>
+          </div>      
         </div>
       </div>
-  
-      <div class="social-links">
-        {%- include social.html -%}
+      <div class="row">
+        <div class="col ">
+          <p class="copyright text-muted text-center fs-6">Copyright © <a href="https://hepaestus.com" target="_blank" class="">hepaestus.com 2024</a></p>
+        </div>
       </div>
-  
     </div>
-  
   </footer>

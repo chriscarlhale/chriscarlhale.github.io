@@ -1,0 +1,134 @@
+- id: 1
+  title: Review of the book Doing SLA research with implications for the classroom
+  subtitle: Reconciling methodological demands and pedagogical applicability, by R.M. DeKeyser & G. P. Botana (Eds.),
+  journal: Jalt Journal, vol.43 (1) (p.119 - 122)
+  date: 2021/05
+  author: Chris Carl Hale
+  doi: https://doi.org/10.1075/lllt.52
+  desc: Research paper (scientific journal), Single Author, Foreign language education, Linguistics, English
+  urls:
+    - site: doi
+      href: https://doi.org/10.1075/lllt.52
+    - site: jalt
+      href: https://jalt.org/system/files/JJ43.1_0.pdf
+
+- id: 2
+  title: "Second-Language Learning for Students with Special Needs: Perceptions of Japanese Secondary School Teachers"
+  subtitle: 
+  journal: Accents Asia , vol.11 (2) (p.78 - 83)
+  date: 2019/09
+  author: Chris Carl Hale, Satoko Ono
+  desc: This paper presents preliminary research into how Japanese teachers of English (JTEs) perceive their readiness in addressing the needs of students with learning disabilities, and what specific concerns they may have in ensuring a productive and healthy classroom learning environment for everyone. Using a qualitative, inductive research design, teacher perceptions were collected from open-ended questionnaires, which were then coded and analyzed. It was hoped that results could inform a needs analysis for teachers wishing to become more informed about learning disabilities and methods for best teaching these students.
+  urls:
+    - site: Accent Asia
+      href: http://www.issues.accentsasia.org/issues/11-2/hale_ono.pdf
+
+- id: 3     
+  title: "Conversation analysis in language teacher education: An approach for reflection through action research"
+  subtitle: 
+  journal: Hacettepe University Journal of Education, vol.33 ((Special Issue)) (p.54 - 71)
+  date: 2018/05
+  author: Hale, C. C., Nanni, A., Hooper, D.
+  doi: https://doi.org/10.16986/HUJE.2018038796
+  desc: Research paper (scientific journal), Multiple Authorship, English linguistics, Foreign language education, Education, English
+  urls:
+    - site: DOI
+      href: http://dx.doi.org/doi.org/10.16986/HUJE.2018038796
+    - site: Springer
+      href: http://link.springer.com/article/10.1186/s40468-014-0010-0
+
+- id: 4 
+  title: "Self-assessment as academic community building: A study from a Japanese liberal arts university"
+  subtitle: 
+  journal: Language Testing in Asia, vol.5 (1) (p.1 - 12)
+  date: 2015/02
+  author: Chris C Hale
+  desc: Research paper (scientific journal), Single Author, Sociology of education, Education on school subjects and activities, English
+  urls:
+    - site: DOI
+      href: http://dx.doi.org/10.1186/s40468-014-0010-0
+    - site: Springer
+      href: http://link.springer.com/article/10.1186/s40468-014-0010-0
+
+- id: 5 
+  title: "Language teaching and learning for general education: Moving beyond the communicative paradigm to 'English for Liberal Arts'"
+  subtitle: 
+  journal: An International Conference in Hong Kong (p.65 - 69)
+  date: 2014/06
+  author: Chris Carl Hale, Paul Wadden
+  desc: General Education and University Curriculum ReformResearch paper (university, research institution), Multiple Authorship, English linguistics, Education on school subjects and activities, English, Research paper (international conference proceedings), Multiple Authorship, Foreign language education, Sociology of education, English
+  urls:
+    - site: UMAC
+      href: http://fhs.umac.mo/wp-content/uploads/2014/06/GE_Conference_Proceedings1.pdf#page=76
+
+- id: 6
+  title: "Power, position and autonomy: Student conflict in a communicative language classroom"
+  subtitle: 
+  journale: Working Papers in TESOL & Applied Linguistics, vol.12 (1) (p.1 - 17)
+  date: 2012/09
+  author: Chris Hale
+  doi: https://doi.org/10.7916/D8057FHH
+  desc: Research paper (scientific journal), Single Author, Education on school subjects and activities, English linguistics, English
+  urls:
+    - site: doi
+      href: https://doi.org/10.7916/D8057FHH
+    - site: Columbia
+      href: https://academiccommons.columbia.edu/doi/10.7916/D8057FHH
+
+- id: 7 
+  title: "Student self-assessment of high-stakes tests: An exploratory study in an English for liberal arts Program"
+  subtitle: 
+  journal: ICU Language Research Bulletin, vol.27 (1) (p.1 - 6)
+  date: 2012/03
+  author: Chris Hoskins, Chris Carl Hale
+  desc: Research paper (university, research institution), Multiple Authorship, English linguistics, Education on school subjects and activities, English
+  urls: 
+    - site: ICU 
+      href: https://icu.repo.nii.ac.jp/?action=repository_uri&item_id=2670&file_id=22&file_no=1
+    - site: CiNii
+      href: http://ci.nii.ac.jp/naid/120005527494
+
+- id: 8
+  title: "Googling perseverance: How an academic online community thrived in the wake of Japan's devastating disasters"
+  subtitle: 
+  journal: Idiom, vol.41 (1) 
+  date: 2011/09
+  author: Chris Hale
+  desc: Research paper (research society, symposium materials, etc.), Single Author, Education, English
+  urls: 
+    - site: Idiom
+      href: http://idiom.nystesol.org/articles/vol41-02.html
+
+- id: 9
+  title: "Breaking with the IRF and EPA: Facilitating student initiated talk"
+  subtitle: 
+  jpurnal: JALT 2010 Conference Proceedings, vol.1 (1) (p.38 - 46)
+  date: 2011/07
+  author: Chris Hale
+  desc: Research paper (international conference proceedings), Single Author, Education on school subjects and activities, Linguistics, English
+  urls: 
+    - site: Jalt
+      href: http://jalt-publications.org/proceedings/articles/1009-breaking-irf-and-epa-facilitating-student-initiated-talk
+
+- id: 10
+  title: "A frame by any other name: Testing the taxonomy of interactional sociolinguistics"
+  subtitle: 
+  journal: ICU Language Research Bulletin , vol.26 (1) (p.1 - 7)
+  date: 2011/03
+  author: Chris Hale
+  desc: Research paper (university, research institution), Single Author, English linguistics, English
+  urls: 
+    - site: ICU Repository
+      href: http://ci.nii.ac.jp/naid/120005527494on=repository_uri&item_id=2661&file_id=22&file_no=1
+
+- id: 11
+  title: "Change, conflict, and Conant: ELP reform and ICU's liberal arts heritage"
+  subtitle: 
+  journal: ICU Language Research Bulletin, vol.25 (1) (p.1 - 13)
+  date: 2010/03
+  author: Chris Hale
+  desc: Research paper (university, research institution), Single Author, English linguistics, Education on school subjects and activities, English
+  urls: 
+    - site: CiNii
+      href: http://ci.nii.ac.jp/naid/120005527494
+
