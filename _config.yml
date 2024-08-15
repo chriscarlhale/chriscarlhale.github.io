@@ -8,12 +8,17 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Chris Carl Hale, Ed.D is Associate Professor in the Graduate School of Global 
-  Communication and Language at Akita International University, Japan and formerly 
-  the Academic Director of the Tokyo Center of the New York University (NYU) School 
-  of Professional Studies (SPS). He has taught undergraduate and graduate courses 
-  related to language acquisition and teacher training in the United States and in 
-  Japan for over 25 years. He is also an avid DJ and techno music producer.
+  Chris Carl Hale, EdD works in the graduate school at Akita International University. He has 
+  taught courses related to language acquisition and teacher training in the United States and 
+  Japan for over 20 years.
+
+# Old description.  
+#  Chris Carl Hale, Ed.D is Associate Professor in the Graduate School of Global 
+#  Communication and Language at Akita International University, Japan and formerly 
+#  the Academic Director of the Tokyo Center of the New York University (NYU) School 
+#  of Professional Studies (SPS). He has taught undergraduate and graduate courses 
+#  related to language acquisition and teacher training in the United States and in 
+#  Japan for over 25 years. He is also an avid DJ and techno music producer.
 
 # Build settings
 formspree: xpwapnnd
@@ -24,7 +29,7 @@ theme: minima
 # As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
 # If you want to use the latest Minima version on GitHub Pages, use the following setting and 
 # add a line comment on "theme: minima" above.
-#remote_theme: jekyll/minima
+remote_theme: jekyll/minima
 
 plugins:
   - jekyll-feed
@@ -54,7 +59,7 @@ minima:
   # solarized-light	   Light variant of solarized color scheme.
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
-  skin: classic
+  skin: 
   
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
@@ -80,6 +85,9 @@ minima:
   #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
   #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+
+include:
+  - assets/css/*
 
 exclude:
   - .gitignore
