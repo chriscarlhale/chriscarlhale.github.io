@@ -3,7 +3,7 @@
 ---
 
 @import
-  "/assets/css/minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "/assets/css/minima/skins/{{ site.minima.skin | default: 'classic' }}.scss",
   "/assets/css/minima/initialize";
 
   

@@ -7,7 +7,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Chris Carl Hale, EdD works in the graduate school at Akita International University. He has 
+  Chris Carl Hale, Ed.D works in the graduate school at Akita International University. He has 
   taught courses related to language acquisition and teacher training in the United States and 
   Japan for over 20 years.
 
@@ -48,7 +48,7 @@ header_pages:
   - contact.md
   - publications.md
   - presentations.md
-  - projects.md
+#  - projects.md
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
@@ -92,6 +92,7 @@ minima:
 
 include:
   - assets/css/*
+  - assets/js/document.js
 
 exclude:
   - .gitignore
@@ -103,3 +104,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - git_build_data.sh
