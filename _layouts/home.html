@@ -9,7 +9,7 @@ layout: base
   {%- endif -%}
   <div class="page-content">
   
-  {$ if page.image %}
+  {% if page.image %}
   <div class="row">
     <div class="col-md-2">
       <img src="{{ page.image }}" alt="Chris Carl Hale" class="img-thumbnail">
@@ -17,7 +17,7 @@ layout: base
     <div class="col-md">
   {%- endif -%}
     {{ content }}
-  {%- if page.image %}
+  {%- if page.image -%}
   </div>
   {%- endif -%}
   </div>
