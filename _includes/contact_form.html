@@ -64,12 +64,12 @@
      }
       console.log("Form submitted successfully");
       // Redirect to thank you page
-      window.location.href = "{{ site.url | append: site.baseurl | append: '/thank-you' | absolute_url }}";
+      window.location.href = "{{ site.url | append: '/thank-you' | absolute_url }}";
     })
     .catch(error => {
       console.error("Error submitting form:", error);
       alert("There was an error sending your message. Please try again.");
-      window.location.href = "{{ site.url | append: site.baseurl | append: '/contact-error' | absolute_url }}";
+      window.location.href = "{{ site.url | append: '/contact-error' | absolute_url }}";
     });
   }
 </script>
