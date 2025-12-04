@@ -1,5 +1,9 @@
-<form action="https://formspree.io/f/{{ site.formspree }}" method="POST" name="sentMessage" id="contactForm" novalidate>
-    <input type="hidden"  name="_subject" value="Chris Carl Hale Website Form Submission!">
+<form onsubmit="submitForm(event);" method="POST" name="sentMessage" id="contactForm" novalidate>
+    <input type="hidden"  name="_subject" value="{{ site.url }} Contact Form">
+    <input type="hidden" name="_recipient" value="{{ site.form_email_recipient }}">
+    <input type="hidden" name="_domain" value="{{ site.url | append: site.baseurl | absolute_url }}">
+    <input type="text" name="_gotcha" style="display:none" />  
+    
     <input type="text" name="_gotcha" style="display:none" />    
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -10,14 +14,14 @@
     </div>
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
-            <label for="_replyto">Email Address</label>
-            <input type="email" name="_replyto" class="form-control" placeholder="Email Address" id="_replyTo" required data-validation-required-message="Please enter your email address.">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" class="form-control" placeholder="Email Address" id="_replyTo" required data-validation-required-message="Please enter your email address.">
             <p class="help-block text-danger"></p>
         </div>
     </div>
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
-        <label for="_phone">Phone Number</label>
+        <label for="phone">Phone Number</label>
         <input type="tel" name="phone" class="form-control" placeholder="123-456-7890" id="phone" required data-validation-required-message="Please enter a valid phone number.">
         <p class="help-block text-danger"></p>
         </div>
@@ -25,7 +29,7 @@
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label for="message">Your Inquiry</label>
-            <textarea rows="3" name="question" class="form-control" placeholder="Your questions or comments" id="question" required data-validation-required-message="Please enter a question or issue."></textarea>
+            <textarea rows="3" name="message" class="form-control" placeholder="Your questions or comments" id="question" required data-validation-required-message="Please enter a question or issue."></textarea>
             <p class="help-block text-danger"></p>
         </div>
     </div>
@@ -38,16 +42,34 @@
     </div>
 </form>
 
+
 <script type="text/javascript">
   function submitForm(e) {
-    //e.preventDefault;
-    console.log("open window");
-    // document.sentMessage.target = "https://formspree.io/f/{{ site.formspree }}";
-    console.log("submitting form");
-    document.sentMessage.submit();
-    console.log("form submitted");
-    window.open("/thanks","width=500,height=500,toolbar=0");
-    // document.location.href = "/thanks";
-    console.log("redirecting thanks");
+    e.preventDefault();
+    console.log("Preparing to submit form");
+    
+    document.sentMessage.action = "{{ site.send_email_cloud_function_url }}";
+    
+    console.log("Submitting form");
+    
+    // Submit form via fetch to avoid page reload
+    const formData = new FormData(document.sentMessage);
+    fetch(document.sentMessage.action, {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => {
+      if (!response.status == 200) {
+        console.error("Network response Was an Error");
+     }
+      console.log("Form submitted successfully");
+      // Redirect to thank you page
+      window.location.href = "{{ site.url | append: site.baseurl | append: '/thank-you' | absolute_url }}";
+    })
+    .catch(error => {
+      console.error("Error submitting form:", error);
+      alert("There was an error sending your message. Please try again.");
+      window.location.href = "{{ site.url | append: site.baseurl | append: '/contact-error' | absolute_url }}";
+    });
   }
 </script>

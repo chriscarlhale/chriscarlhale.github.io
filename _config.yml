@@ -21,11 +21,14 @@ description: >
 
 
 dj-name: DJ Chris Hale
-dj-site: http://xp8r.com/
-dj-site-name: XP8R
+dj-site: https://play.qobuz.com/artist/5275174
+# dj-site: http://xp8r.com/
+# dj-site-name: XP8R
 
 # Build settings
-formspree: xpwapnnd
+form_email_recipient: contact1@chriscarlhale.com
+send_email_cloud_function_url: "https://send-form-email-815950484584.us-east4.run.app/send_email"
+formspree: false   # IGNORE - old setting for Formspree, no longer used.
 
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
