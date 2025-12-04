@@ -3,7 +3,8 @@ layout: page
 title: Publications
 permalink: /publications
 ---
-{% for pub in site.data.publications %}
+{% assign publications = site.data.publications | sort_natural: "date" | reverse %}
+{% for pub in publications %}
   <div class="card m-2 p-2" style="">    
     <div class="row">        
       <div class="col">        

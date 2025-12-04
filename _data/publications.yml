@@ -1,6 +1,105 @@
+
+- name: Covering culture in the pre-service teacher practicum
+  author:
+    - name: Chris Carl Hale
+    - name: Daisuke Shimamoto
+  title: Covering culture in the pre-service teacher practicum
+  publisher: JALT
+  date: 2022/02/01
+  desc: This paper reports on a study that investigated the perceptions of pre-service teachers (PSTs) regarding the inclusion of intercultural communication (IC) in a TESOL practicum course
+  image: /assets/images/publications_5.png
+  urls:
+    - site: JALT
+      href: https://jalticle.org/course/view.php?id=3
+
+
+
+- name: "Transforming university English with CLIL curricula: An in-depth case study"
+  author: 
+    - name: Hale, C.C
+    - name: Wadden, P.
+    - name: Shiroza, S.
+    - name:  Otsuru, S.
+    - name: Martin, H.M. 
+  date: 2024/08/01
+  title: "Transforming university English with CLIL curricula: An in-depth case study"
+  desc: "How will universities throughout Japan meet future challenges of enhancing students' English academic skills to achieve MEXT goals, prepare students for study abroad and EMI courses at home, and boost overall international English-language competitiveness? Adopting CLIL-based curricula is one promising solution. Based on a four-year MEXT grant to researchers at four major universities, this article describes action-research curricular reform of a first-year English program with 230 students. Its research objective was to design an effective content-based curriculum to improve academic readiness for study in English and significantly boost TOEFL scores."
+  image: /assets/images/jalt_2023-27_transforming.png 
+  urls:
+    - site: JALT 
+      href: https://doi.org/10.37546/JALTPCP2023-26
+
+
+
+- name: "Future educators bridging theory and practice in language education [Special issue]." 
+  publisher: "Accents Asia"
+  date: 2024/11/01
+  title: "Future educators bridging theory and practice in language education"
+  author:
+    - name: Chris Carl Hale
+  desc: Future educators bridging theory and practice in language Education
+  image: /assets/images/publications_04.png
+  urls:
+    - site: Accents Asia
+      href: https://www.accentsasia.org/issues/ 
+  urls:
+    - site: Accents Asia
+      href: https://accentsasia.org/issues/19-1/Hale_special_issue.pdf
+
+
+
+- name: "Conversation analysis as “critical event” in teacher reflective practice"
+  publisher: Springer
+  date: 2025/08/01
+  title: "Conversation analysis as “critical event” in teacher reflective practice"
+  author:
+    - name: Chris Carl Hale
+  desc: "Conversation analysis as “critical event” in teacher reflective practice"
+  image: /assets/images/publications_03.jpg
+  urls:
+    - site: Springer
+      href: https://doi.org/10.1007/978-3-031-88310-1_6
+
+
+
+- name: "Adopting CLIL in Japan: An In-depth University Case Study"
+  publisher: JALT
+  date: 2025/11/01
+  title: "Adopting CLIL in Japan: An In-depth University Case Study"
+  author:
+    - name: Chris Carl Hale
+    - name: Robert Dilenschneider
+    - name: Paul Wadden
+    - name: Haruko Umehara
+    - name: Sayaka Shiroza
+  desc: "Adopting CLIL in Japan: An In-depth University Case Study"
+  image: /assets/images/publications_02.png
+  urls:
+    - site: JALT
+      href: https://doi.org/10.37546/JALTPCP2024-18
+
+
+- name: "Additional language learning and identity formation"
+  publisher: Accents Asia
+  date: 2020/11/01
+  title: "Additional language learning and identity formation: A graduate research project using narrative inquiry."
+  author:
+    - name: Chris Carl Hale
+    - name: Xu, Q.
+    - name: Ling, W.Y.
+    - name: Kim, J.H.
+  desc: A graduate research project using narrative inquiry
+  image: /assets/images/publications_01.png
+  urls:
+    - site: Accents Asia
+      href: http://www.accentsasia.org/issues/Hale.pdf
+    
+
+
+
 - name: Academic Culture as Content
   publisher: Springer
-  date: 2020/12
+  date: 2020/12/01
   title: Self-Assessment in the CLIL Classroom in the International Liberal Arts University
   author:
     - name: Chris Carl Hale
@@ -13,9 +112,11 @@
     - site: Springer
       href: https://link.springer.com/book/10.1007%2F978-3-030-54128-6#about
 
+
+
 - name: An in-service TESOL practicum in Japan
   publisher: Springer    
-  date: 2020/11
+  date: 2020/11/01
   title: 
   author:
     - name: Bill Snyder
@@ -31,7 +132,7 @@
 
 - name: Teaching English at Japanese Universities
   publisher: Routledge
-  date: 2018/11    
+  date: 2018/11/01  
   title: A new Handbook
   author:
     - name: Paul Wadden
@@ -48,7 +149,7 @@
 
 - name: Real world listening in the Japanese university classroom (Chapter in edited volume)
   publisher: Routledge
-  date: 2018/11
+  date: 2018/11/01
   title: 
   author: 
     - name: Chris Carl Hale
@@ -60,7 +161,7 @@
     
 - name: "The landscape of Japanese higher education: An introduction (Chapter in edited volume)"
   publisher: Routledge
-  date: 2018/11
+  date: 2018/11/01
   title: 
   author: 
     - name: Chris Carl Hale
@@ -73,7 +174,7 @@
 
 - name: Types of universities in Japan (Chapter in edited volume)
   publisher: Routledge
-  date: 2018/11
+  date: 2018/11/01
   title: 
   author:
     - name: Chris Carl Hale
@@ -88,7 +189,7 @@
 
 - name: "Negotiating the effects of transnational education: The experience of graduate students in an American teacher-education program"
   publisher: Japan ProQuest LLC
-  date: 2015/03
+  date: 2015/03/01
   title:
   author: 
     - name: Chris Carl Hale
@@ -100,7 +201,7 @@
 
 - name: "Charting new courses: Second language action research in Japanese junior and senior high schools"
   publisher: Accents Asia Press
-  date: 2008/04
+  date: 2008/04/01
   title: 
   author: 
     - name: Chris Carl Hale
