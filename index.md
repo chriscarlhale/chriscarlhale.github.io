@@ -5,7 +5,7 @@ header: Chris Carl Hale Ed.D
 image: /assets/images/chris-carl-hale-01.png
 nav-display: false
 ---
-Chris Carl Hale, Ed.D is Associate Professor in the Graduate School of Global Communication and Language at Akita International University, Japan and formerly the Academic Director of the Tokyo Center of the New York University (NYU) School of Professional Studies (SPS).
+Chris Carl Hale, Ed.D is a Professor in the Graduate School of Global Communication and Language at Akita International University, Japan and formerly the Academic Director of the Tokyo Center of the New York University (NYU) School of Professional Studies (SPS).
 
 He has taught undergraduate and graduate courses related to language acquisition and teacher training in the United States and in Japan for over 20 years at universities such as City University of New York (CUNY), Queens College, Teachers College Columbia University’s Tokyo Campus, New York University School of Professional Studies, and International Christian University, Tokyo.
      
